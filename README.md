@@ -28,35 +28,35 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 The project runs using `tsx` to compile TypeScript on the fly. From your terminal, use the following commands:
 
 **Add a new task:**
-\`\`\`bash
+```bash
 npx tsx Task-CLI.ts add "Buy groceries"
-\`\`\`
+````
 
 **List all tasks:**
-\`\`\`bash
+```bash
 npx tsx Task-CLI.ts list
-\`\`\`
+```
 
 **List tasks by status (todo, in-progress, done):**
-\`\`\`bash
+```ash
 npx tsx Task-CLI.ts list in-progress
-\`\`\`
+```
 
 **Update a task's description (requires ID):**
-\`\`\`bash
+```bash
 npx tsx Task-CLI.ts update 1 "Buy groceries for the whole week"
-\`\`\`
+```
 
 **Change a task's status (requires ID):**
-\`\`\`bash
+```bash
 npx tsx Task-CLI.ts mark-in-progress 1
 npx tsx Task-CLI.ts mark-done 1
-\`\`\`
+```
 
 **Delete a task (requires ID):**
-\`\`\`bash
+```bash
 npx tsx Task-CLI.ts delete 1
-\`\`\`
+```
 
 ## Acknowledgements
 This project was built following the backend developer project ideas from [roadmap.sh](https://roadmap.sh/projects/task-tracker). Thank you to the community for providing excellent structured paths and practical challenges for continuous learning.
