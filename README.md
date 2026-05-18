@@ -57,3 +57,6 @@ npx tsx Task-CLI.ts mark-done 1
 \`\`\`bash
 npx tsx Task-CLI.ts delete 1
 \`\`\`
+
+## Acknowledgements
+This project was built following the backend developer project ideas from [roadmap.sh](https://roadmap.sh/projects/task-tracker). Thank you to the community for providing excellent structured paths and practical challenges for continuous learning.
