@@ -29,8 +29,8 @@ graph TD
     User["User Input"] --> index["index.ts"]
     index --> Registry{"Handlers Registry"}
     Registry -->|Lookup Command| Handler["Handler Object"]
-    Handler -->|Execute run()| Act["Action Module"]
-    Act -->|Reads/Writes| File[(tasks.json)]
+    Handler -->|"Execute run()"| Act["Action Module"]
+    Act -->|Reads/Writes| File[("tasks.json")]
 ```
 
 ### The Handlers Registry
