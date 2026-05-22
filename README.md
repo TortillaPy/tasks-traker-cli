@@ -35,12 +35,12 @@ graph TD
 
 ### The Handlers Registry
 
-All commands are defined as **Handlers** satisfying the `Handler` interface defined in [src/handlers.ts](src/handlers.ts):
+All commands are defined as **Handlers** satisfying the `Handler` interface defined in [src/commands/handlers.ts](src/commands/handlers.ts):
 
 ```typescript
 export interface Handler {
   run: (
-    tasks: Task[],co
+    tasks: Task[],
     payload?: string,
     updatePayload?: string,
     filePath?: string
