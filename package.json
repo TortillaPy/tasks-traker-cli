@@ -16,7 +16,7 @@
     "task",
     "tracker"
   ],
-  "author": "",
+  "author": "TortillaPy",
   "license": "ISC",
   "devDependencies": {
     "@eslint/js": "^9.0.0",
